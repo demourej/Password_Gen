@@ -147,6 +147,7 @@ console.log (randomChar);
 console.log (password);
 
 document.getElementById("password").placeholder = password;
+document.getElementById("password").style.border = "dashed #af0808 3px";
 
 }
 
