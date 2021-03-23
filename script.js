@@ -15,10 +15,10 @@ function writePassword() {
 
   if (pass_length >= 8 && pass_length <= 128) {
     // alert("Info: Longitud listo");
-    var isUpper = confirm("Do you want to contain Capital Letters?" + "\r\n(Click Ok to include)");
-    var isLower = confirm ("Do you want to contain Lower Cases in your password?" + "\r\n(Click Ok to include)");
-    var isNumber = confirm("Do you want to contain Numbers?" + "\r\n(Click Ok to include)");
-    var isSymbol = confirm("Do you want to contain Special Characters?" + "\r\n(Click Ok to include)");
+    var isUpper = confirm("Do you want to include upercase letters in your password?" + "\r\n(Click Ok to include)");
+    var isLower = confirm ("Do you want to include lowercase letters in your password?" + "\r\n(Click Ok to include)");
+    var isNumber = confirm("Do you want to include numbers in your password?" + "\r\n(Click Ok to include)");
+    var isSymbol = confirm("Do you want to include special characters in your password?" + "\r\n(Click Ok to include)");
     var alpha_options = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
     var upper_options = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "W", "V", "X", "Y", "Z"];
     var num_options = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"];
