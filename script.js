@@ -72,13 +72,14 @@ function writePassword() {
         var randomChar = options_final[randomNumber];
         var password = password.concat(randomChar);
       }
-      alert("Your Generated password: " + password);
 
       console.log(randomChar);
       console.log(password);
 
-      document.getElementById("password").placeholder = password;
+      document.getElementById("password").placeholder = "Your Secure Password\r\n\r\n" + password;
       document.getElementById("password").style.border = "dashed #af0808 3px";
+      document.getElementById("password").style.backgroundColor = "lightgray";
+      // alert("Your Generated password: " + password);
     } else {
       alert("Error: Your password must include at least one type of characters. \r\nPlease try again.")
     }
